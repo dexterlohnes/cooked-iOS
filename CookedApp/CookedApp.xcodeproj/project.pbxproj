@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		3989D6FF1AFBEF160077FF92 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3989D6FE1AFBEF160077FF92 /* main.m */; };
 		3989D7021AFBEF160077FF92 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3989D7011AFBEF160077FF92 /* AppDelegate.m */; };
-		3989D7051AFBEF160077FF92 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3989D7041AFBEF160077FF92 /* ViewController.m */; };
 		3989D7081AFBEF160077FF92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3989D7061AFBEF160077FF92 /* Main.storyboard */; };
 		3989D70A1AFBEF160077FF92 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3989D7091AFBEF160077FF92 /* Images.xcassets */; };
 		3989D70D1AFBEF160077FF92 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3989D70B1AFBEF160077FF92 /* LaunchScreen.xib */; };
 		3989D7191AFBEF160077FF92 /* CookedAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3989D7181AFBEF160077FF92 /* CookedAppTests.m */; };
+		398A7AFA1AFBF4AB00E0070B /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 398A7AF91AFBF4AB00E0070B /* WebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +32,14 @@
 		3989D6FE1AFBEF160077FF92 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3989D7001AFBEF160077FF92 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3989D7011AFBEF160077FF92 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3989D7031AFBEF160077FF92 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3989D7041AFBEF160077FF92 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3989D7071AFBEF160077FF92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3989D7091AFBEF160077FF92 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3989D70C1AFBEF160077FF92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		3989D7121AFBEF160077FF92 /* CookedAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CookedAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3989D7171AFBEF160077FF92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3989D7181AFBEF160077FF92 /* CookedAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CookedAppTests.m; sourceTree = "<group>"; };
+		398A7AF81AFBF4AB00E0070B /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WebViewController.h; path = ../WebViewController.h; sourceTree = "<group>"; };
+		398A7AF91AFBF4AB00E0070B /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WebViewController.m; path = ../WebViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +83,8 @@
 			children = (
 				3989D7001AFBEF160077FF92 /* AppDelegate.h */,
 				3989D7011AFBEF160077FF92 /* AppDelegate.m */,
-				3989D7031AFBEF160077FF92 /* ViewController.h */,
-				3989D7041AFBEF160077FF92 /* ViewController.m */,
+				398A7AF81AFBF4AB00E0070B /* WebViewController.h */,
+				398A7AF91AFBF4AB00E0070B /* WebViewController.m */,
 				3989D7061AFBEF160077FF92 /* Main.storyboard */,
 				3989D7091AFBEF160077FF92 /* Images.xcassets */,
 				3989D70B1AFBEF160077FF92 /* LaunchScreen.xib */,
@@ -219,8 +219,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3989D7051AFBEF160077FF92 /* ViewController.m in Sources */,
 				3989D7021AFBEF160077FF92 /* AppDelegate.m in Sources */,
+				398A7AFA1AFBF4AB00E0070B /* WebViewController.m in Sources */,
 				3989D6FF1AFBEF160077FF92 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +412,7 @@
 				3989D71E1AFBEF160077FF92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3989D71F1AFBEF160077FF92 /* Build configuration list for PBXNativeTarget "CookedAppTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +421,7 @@
 				3989D7211AFBEF160077FF92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

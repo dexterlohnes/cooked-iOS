@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  WebViewController.h
 //  CookedApp
 //
 //  Created by Dexter Lohnes on 5/7/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface WebViewController : UIViewController <UIWebViewDelegate>
 
 @end
-
